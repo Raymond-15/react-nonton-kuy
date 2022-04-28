@@ -1,7 +1,17 @@
+import { Navbar, Container, Nav } from "react-bootstrap";
+
 const NavigationBar = () => {
   return (
     <div>
-      <h1>Navigasi</h1>
+      <Navbar>
+        <Container>
+          <Navbar.Brand>N-KUY</Navbar.Brand>
+          <Nav>
+            <Nav.Link>TRENDING</Nav.Link>
+            <Nav.Link>SUPERHERO</Nav.Link>
+          </Nav>
+        </Container>
+      </Navbar>
     </div>
   );
 };
