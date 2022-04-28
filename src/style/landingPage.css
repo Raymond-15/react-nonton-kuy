@@ -7,8 +7,8 @@
 .intro {
   height: 300px;
   display: flex;
-  justify-content: end;
-  align-items: end;
+  justify-content: flex-end;
+  align-items: flex-end;
   text-align: center;
 }
 
@@ -18,4 +18,21 @@
   line-height: 1;
   text-shadow: 2px 2px black;
   letter-spacing: 4px;
+}
+
+.trending {
+  height: auto;
+  background: url("../assets/images/bg/scifi.jpg");
+  background-size: cover;
+}
+
+.movieImage {
+  height: auto;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.images {
+  height: 500px;
 }
