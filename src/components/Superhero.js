@@ -10,14 +10,16 @@ const Superhero = () => {
   return (
     <Container>
       <br />
-      <h1 className="text-white">SUPERHERO MOVIES</h1>
+      <h1 id="superhero" className="text-white">
+        SUPERHERO MOVIES
+      </h1>
       <br />
       <Row>
         <Col md={4} className="movieWraper">
           <Card className="bg-dark movieImage">
-            <Image src={antman} alt="Dune Movies" className="images" />
+            <Image src={antman} alt="Antman Movies" className="images" />
             <div className="p-2 m-1 text-white">
-              <Card.Title className="text-center">Dune</Card.Title>
+              <Card.Title className="text-center">Antman</Card.Title>
               <Card.Text className="text-left">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</Card.Text>
               <Card.Text className="text-left">Last updated 3 mins ago</Card.Text>
             </div>
@@ -26,9 +28,9 @@ const Superhero = () => {
 
         <Col md={4} className="movieWraper">
           <Card className="bg-dark movieImage">
-            <Image src={avenger} alt="Everything Movies" className="images" />
+            <Image src={avenger} alt="Avenger Movies" className="images" />
             <div className="p-2 m-1 text-white">
-              <Card.Title className="text-center">Dune</Card.Title>
+              <Card.Title className="text-center">Avenger</Card.Title>
               <Card.Text className="text-left">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</Card.Text>
               <Card.Text className="text-left">Last updated 3 mins ago</Card.Text>
             </div>
@@ -37,9 +39,9 @@ const Superhero = () => {
 
         <Col md={4} className="movieWraper">
           <Card className="bg-dark movieImage">
-            <Image src={batman} alt="Infinite Movies" className="images" />
+            <Image src={batman} alt="Batman Movies" className="images" />
             <div className="p-2 m-1 text-white">
-              <Card.Title className="text-center">Dune</Card.Title>
+              <Card.Title className="text-center">Batman</Card.Title>
               <Card.Text className="text-left">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</Card.Text>
               <Card.Text className="text-left">Last updated 3 mins ago</Card.Text>
             </div>
@@ -48,9 +50,9 @@ const Superhero = () => {
 
         <Col md={4} className="movieWraper">
           <Card className="bg-dark movieImage">
-            <Image src={robinhood} alt="Joker Movies" className="images" />
+            <Image src={robinhood} alt="Robinhood Movies" className="images" />
             <div className="p-2 m-1 text-white">
-              <Card.Title className="text-center">Dune</Card.Title>
+              <Card.Title className="text-center">Robinhood</Card.Title>
               <Card.Text className="text-left">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</Card.Text>
               <Card.Text className="text-left">Last updated 3 mins ago</Card.Text>
             </div>
@@ -59,9 +61,9 @@ const Superhero = () => {
 
         <Col md={4} className="movieWraper">
           <Card className="bg-dark movieImage">
-            <Image src={spiderman} alt="Lightyear Movies" className="images" />
+            <Image src={spiderman} alt="Spiderman Movies" className="images" />
             <div className="p-2 m-1 text-white">
-              <Card.Title className="text-center">Dune</Card.Title>
+              <Card.Title className="text-center">Spiderman</Card.Title>
               <Card.Text className="text-left">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</Card.Text>
               <Card.Text className="text-left">Last updated 3 mins ago</Card.Text>
             </div>
@@ -70,9 +72,9 @@ const Superhero = () => {
 
         <Col md={4} className="movieWraper">
           <Card className="bg-dark movieImage">
-            <Image src={superman} alt="Morbius Movies" className="images" />
+            <Image src={superman} alt="Superman Movies" className="images" />
             <div className="p-2 m-1 text-white">
-              <Card.Title className="text-center">Dune</Card.Title>
+              <Card.Title className="text-center">Superman</Card.Title>
               <Card.Text className="text-left">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</Card.Text>
               <Card.Text className="text-left">Last updated 3 mins ago</Card.Text>
             </div>
